@@ -2,9 +2,6 @@
 
 import Cocoa
 
-//: Playground - noun: a place where people can play
-
-import Cocoa
 
 
 protocol TabularDataSource {
@@ -19,7 +16,8 @@ protocol TabularDataSource {
     
 }
 
-func printTable (_ dataSource: TabularDataSource){
+func printTable (_ dataSource: TabularDataSource & CustomStringConvertible){
+    print("Table: \(dataSource.description)")
     var firstRow = "|"
     var columnWidth = [Int]()
     
@@ -63,7 +61,7 @@ struct Person {
     
 }
 
-struct Department: TabularDataSource {
+struct Department: TabularDataSource, CustomStringConvertible {
     func itemFor(row: Int, column: Int) -> String {
         let person = people[row]
         switch column {
@@ -82,6 +80,12 @@ struct Department: TabularDataSource {
             
         }
     }
+    
+    var description: String {
+        return "Department (\(name))"
+    }
+    
+    
     
     var numberofColumns: Int {
         return 3
@@ -107,7 +111,7 @@ struct Department: TabularDataSource {
     
 }
 
-var department = Department(name: "Engineerign")
+var department = Department(name: "Engineering")
 department.add(Person(name: "Joe", age: 30, yearsOfExperience: 6))
 department.add(Person(name: "Karen", age: 40, yearsOfExperience: 18))
 department.add(Person(name: "Fred", age: 50, yearsOfExperience: 20))

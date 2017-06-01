@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D61F9C764FC828E753BBAE6C0FBCC79FFEDC78B1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D61F9C764FC828E753BBAE6C0FBCC79FFEDC78B1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E06DDBC0-291E-43D0-9690-436EFA64F232",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D61F9C764FC828E753BBAE6C0FBCC79FFEDC78B1" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "spreadsheetWork",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "spreadsheetWork.playground",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Clearcupwater\/water-phone.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D61F9C764FC828E753BBAE6C0FBCC79FFEDC78B1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Clearcupwater\/water-phone.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D61F9C764FC828E753BBAE6C0FBCC79FFEDC78B1"
+    }
+  ]
+}
